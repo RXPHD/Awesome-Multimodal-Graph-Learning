@@ -1,7 +1,7 @@
 # Awesome Multimodal Graph Learning
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![Issues Welcome](https://img.shields.io/badge/issues-welcome-brightgreen.svg)](#contributing)
 
 Companion repository for the survey
 
@@ -343,24 +343,26 @@ Beyond recommendation (see the propagation and topology sections above):
 If you find this survey or repository useful, please cite:
 
 ```bibtex
-@misc{xue2026mglsurvey,
-  title   = {Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers},
-  author  = {Xue, Rui and Wu, Tianfu},
-  note    = {Preprint; arXiv identifier to be added},
-  year    = {2026}
+@article{xue2026multimodal,
+  title={Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers},
+  author={Xue, Rui and Wu, Tianfu},
+  journal={arXiv preprint arXiv:2611.12990},
+  year={2026}
 }
 ```
 
 ## Contributing
 
-Pull requests are welcome. To add a paper, please follow the existing format:
+Suggestions are welcome via [issues](../../issues). Please do not open pull requests; we review each suggestion and update the list ourselves.
 
-```markdown
-- **Name**: Paper Title. *Venue Year*. [[Paper]](link) [[Code]](link)
-  One-sentence summary of the method.
-```
+To suggest a paper, open an issue with:
 
-and place it under the integration level of its primary contribution. Please open an issue for corrections to venues, links, or dataset statistics. Include a primary source for factual corrections (official proceedings, paper, or dataset release) and specify whether results come from the original benchmark or a later study.
+- Paper title, venue, and year
+- Paper link (and code link, if available)
+- A one-sentence summary of the method
+- The integration level that best matches its primary contribution (feature, propagation, topology, learning, or foundation model)
+
+For corrections to venues, links, or dataset statistics, please include a primary source (official proceedings, paper, or dataset release) and specify whether results come from the original benchmark or a later study.
 
 ### Reproducibility and maintenance
 
