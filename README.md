@@ -7,7 +7,7 @@ Companion repository for the survey
 
 > **Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers**
 > Rui Xue, Tianfu Wu
-> Paper: arXiv identifier pending (add the paper link after the preprint is posted).
+> Paper: https://arxiv.org/abs/2611.12990
 
 Multimodal attributed graphs (MAGs), in which nodes carry text, images, and other modalities while edges encode relations among entities, underlie e-commerce, social media, content platforms, and creative applications. This repository collects the papers, benchmarks, and datasets covered by the survey, organized by the **integration level** at which multimodal information and graph structure meet: feature, propagation, topology, learning, and foundation model. It also covers cross-cutting issues (robustness, efficiency, federation) and connections to AI agents.
 
