@@ -8,7 +8,7 @@ Companion repository for the survey
 > **Multimodal Graph Learning: A Survey of Models, Benchmarks, and Frontiers**
 > Rui Xue, Tianfu Wu
 
-> Paper: https://arxiv.org/abs/2611.12990
+> [[Paper]](https://arxiv.org/abs/2611.12990)
 
 Multimodal attributed graphs (MAGs), in which nodes carry text, images, and other modalities while edges encode relations among entities, underlie e-commerce, social media, content platforms, and creative applications. This repository collects the papers, benchmarks, and datasets covered by the survey, organized by the **integration level** at which multimodal information and graph structure meet: feature, propagation, topology, learning, and foundation model. It also covers cross-cutting issues (robustness, efficiency, federation) and connections to AI agents.
 
@@ -20,7 +20,6 @@ Each entry lists the venue, a paper link, and a one-line summary. Methods may ap
 
 ## Contents
 
-- [Related Surveys](#related-surveys)
 - [Feature Level: Encoders and Backbones](#feature-level-encoders-and-backbones)
 - [Propagation Level](#propagation-level)
 - [Topology Level](#topology-level)
@@ -289,7 +288,7 @@ These are the original authors' code or data repositories, not implementations m
 | MM-GRAPH | [Project page](https://mm-graph-benchmark.github.io/) · [Code](https://github.com/mm-graph-benchmark/mm-graph-benchmark) · [Dataset](https://huggingface.co/datasets/mm-graph-org/mm-graph) | Original benchmark, features, and preprocessing |
 | MAGB | [Official code](https://github.com/sktsherlock/MAGB) | Dataset and evaluation pipeline |
 | GraphVLM | [Official code](https://github.com/oamyjin/GraphVLM) | VLM-as-Encoder, -Aligner, and -Predictor pipelines |
-| OpenMAG | [Official code](https://anonymous.4open.science/r/OpenMAG-F703)| Encoders, model library, and evaluation workflows |
+| OpenMAG | [Official code](https://github.com/YUKI-N810/OpenMAG?utm_source=chatgpt.com)| Encoders, model library, and evaluation workflows |
 
 ---
 
@@ -361,7 +360,3 @@ To suggest a paper, open an issue with:
 - The integration level that best matches its primary contribution (feature, propagation, topology, learning, or foundation model)
 
 For corrections to venues, links, or dataset statistics, please include a primary source (official proceedings, paper, or dataset release) and specify whether results come from the original benchmark or a later study.
-
-### Reproducibility and maintenance
-
-Dataset-level numbers in the tables above are descriptive statistics, not model-performance results. Raw edge counts follow each source's convention. The descriptors computed in this repository use the released graphs converted to simple undirected graphs (self-loops and duplicate edges removed), with label homophily computed on these edges. Results obtained under different splits, encoders, or negative-sampling protocols should not be merged into a single leaderboard.
