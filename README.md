@@ -289,7 +289,7 @@ These are the original authors' code or data repositories, not implementations m
 | MM-GRAPH | [Project page](https://mm-graph-benchmark.github.io/) · [Code](https://github.com/mm-graph-benchmark/mm-graph-benchmark) · [Dataset](https://huggingface.co/datasets/mm-graph-org/mm-graph) | Original benchmark, features, and preprocessing |
 | MAGB | [Official code](https://github.com/sktsherlock/MAGB) | Dataset and evaluation pipeline |
 | GraphVLM | [Official code](https://github.com/oamyjin/GraphVLM) | VLM-as-Encoder, -Aligner, and -Predictor pipelines |
-| OpenMAG | [Code (link given in the paper)](https://anonymous.4open.science/r/OpenMAG-F703/) | Encoders, model library, and evaluation workflows |
+| OpenMAG | | Encoders, model library, and evaluation workflows |
 
 For cross-paper comparisons, check the original split, encoder, negative sampling, and evaluation protocol before reusing reported results.
 
