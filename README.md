@@ -13,7 +13,7 @@ Companion repository for the survey
 Multimodal attributed graphs (MAGs), in which nodes carry text, images, and other modalities while edges encode relations among entities, underlie e-commerce, social media, content platforms, and creative applications. This repository collects the papers, benchmarks, and datasets covered by the survey, organized by the **integration level** at which multimodal information and graph structure meet: feature, propagation, topology, learning, and foundation model. It also covers cross-cutting issues (robustness, efficiency, federation) and connections to AI agents.
 
 <p align="center">
-  <img src="assets/taxonomy.png" width="95%" alt="Taxonomy of multimodal graph learning by integration level">
+  <img src="Assets/taxonomy.png" width="95%" alt="Taxonomy of multimodal graph learning by integration level">
 </p>
 
 Each entry lists the venue, a paper link, and a one-line summary. Methods may appear at more than one level; the full multi-label assignment is given in Table 2 of the survey. The list focuses on multimodal attributed graphs; multimodal knowledge graphs and agent workflow graphs are included only where they provide relevant background or methodological connections.
