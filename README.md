@@ -37,25 +37,6 @@ Each entry lists the venue, a paper link, and a one-line summary. Methods may ap
 
 ---
 
-## Related Surveys
-
-- **Learning on Multimodal Graphs: A Survey**. *arXiv 2024*. [[Paper]](https://arxiv.org/abs/2402.05322)
-  Categorizes multimodal graphs into feature-, node-, and graph-level types.
-- **Multimodal Learning with Graphs**. *Nature Machine Intelligence 2023*. [[Paper]](https://arxiv.org/abs/2209.03299)
-  A blueprint for graph-centric multimodal learning across scientific and natural domains.
-- **Towards Multimodal Graph Large Language Model**. *Science China Information Sciences 2025*. [[Paper]](https://arxiv.org/abs/2506.09738)
-  A roadmap toward a single multimodal graph LLM (MG-LLM).
-- **Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey**. *arXiv 2024*. [[Paper]](https://arxiv.org/abs/2402.05391)
-  Survey of multimodal knowledge graphs.
-- **Multimodal Graph Neural Networks in Healthcare: A Review of Fusion Strategies across Biomedical Domains**. *Frontiers in Artificial Intelligence 2026*. [[Paper]](https://doi.org/10.3389/frai.2025.1716706)
-  Review of multimodal GNN fusion strategies in biomedical applications.
-- **Graphs Meet AI Agents: Taxonomy, Progress, and Future Opportunities**. *arXiv 2025*. [[Paper]](https://arxiv.org/abs/2506.18019)
-  How explicit graphs organize planning, tool use, memory, and coordination in agents.
-- **Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence**. *arXiv 2026*. [[Paper]](https://arxiv.org/abs/2608.21156)
-  Introduces "graph engineering" for organizing agent systems as explicit graphs.
-
----
-
 ## Feature Level: Encoders and Backbones
 
 Feature-level methods encode each modality, fuse the resulting embeddings (e.g., by concatenation, summation, or gating), and run a standard GNN. Encoders may be frozen or fine-tuned, depending on the evaluation protocol.
